@@ -1,0 +1,61 @@
+body{
+	background: #E7D7C1;
+}
+
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+button{
+	margin: .5rem .25rem;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: auto;
+}
+
+.listTitle{
+
+	color: #80645D;
+	text-align: center;	
+	font-size: 3rem;
+	margin-top: 5rem;
+}
+
+.inputForm{
+	text-align: center;
+	margin: 1.5rem;
+}
+
+.listItem{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: #D38D82; 
+	border: solid #000;
+	border-width: 2px;
+	margin: 20px;
+}
+
+.listItemContent{
+	font-size: 1.5rem;
+	margin: 0px;
+}
+
+.done{
+
+	background: #7FE57F;
+}
+
+.doneText{
+
+	text-decoration: line-through;
+}
